@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#08111f;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    background:black;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:#1e90ff;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:25px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#1e90ff;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+    padding:80px;
+}
+
+.hero-image img{
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    border:5px solid #1e90ff;
+    object-fit:cover;
+}
+
+.hero-content h1{
+    font-size:55px;
+    margin:10px 0;
+}
+
+.hero-content h2{
+    color:#1e90ff;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    margin-top:10px;
+    font-size:18px;
+    line-height:1.6;
+}
+
+button{
+    margin-top:20px;
+    margin-right:15px;
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:#1e90ff;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+/* Heading */
+
+.heading{
+    text-align:center;
+    font-size:40px;
+    color:#ffffff;
+    margin-bottom:50px;
+}
+
+/* Skills */
+
+#skills{
+    padding:80px 10%;
+    background:#0d1117;
+}
+
+.skills-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.skill-card{
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:20px;
+    padding:30px;
+    transition:.4s;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+    border-color:#00bfff;
+    box-shadow:0 15px 30px rgba(0,191,255,.4);
+}
+
+.skill-card h3{
+    color:#00bfff;
+    margin-bottom:20px;
+    font-size:24px;
+}
+
+.skill-card p{
+    color:#d1d5db;
+    margin:10px 0;
+    font-size:17px;
+}
+
+/* Education */
+
+#education{
+    padding:80px 10%;
+    background:#111827;
+}
+
+.education-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.edu-card{
+    background:#161b22;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    border:1px solid #30363d;
+    transition:.4s;
+}
+
+.edu-card:hover{
+    transform:translateY(-10px);
+    border-color:#00bfff;
+    box-shadow:0 15px 30px rgba(0,191,255,.4);
+}
+
+.edu-card h3{
+    color:#00bfff;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.edu-card p{
+    color:white;
+    font-size:18px;
+}
